@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACE1777B177035BC00FDEC42 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE1777A177035BC00FDEC42 /* Cocoa.framework */; };
+		ACE1777D177035BC00FDEC42 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE1777C177035BC00FDEC42 /* MacRuby.framework */; };
+		ACE17786177035BC00FDEC42 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACE17784177035BC00FDEC42 /* InfoPlist.strings */; };
+		ACE17788177035BC00FDEC42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE17787177035BC00FDEC42 /* main.m */; };
+		ACE1778D177035BC00FDEC42 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACE1778B177035BC00FDEC42 /* MainMenu.xib */; };
+		ACE17790177035BC00FDEC42 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = ACE1778F177035BC00FDEC42 /* rb_main.rb */; };
+		ACE17792177035BC00FDEC42 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = ACE17791177035BC00FDEC42 /* AppDelegate.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACE1777F177035BC00FDEC42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACE1776F177035BC00FDEC42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACE17776177035BC00FDEC42;
+			remoteInfo = FlashCardGenerator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACE17777177035BC00FDEC42 /* FlashCardGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashCardGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACE1777A177035BC00FDEC42 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		ACE1777C177035BC00FDEC42 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		ACE17783177035BC00FDEC42 /* FlashCardGenerator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlashCardGenerator-Info.plist"; sourceTree = "<group>"; };
+		ACE17785177035BC00FDEC42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ACE17787177035BC00FDEC42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACE17789177035BC00FDEC42 /* FlashCardGenerator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlashCardGenerator-Prefix.pch"; sourceTree = "<group>"; };
+		ACE1778C177035BC00FDEC42 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		ACE1778F177035BC00FDEC42 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		ACE17791177035BC00FDEC42 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACE17774177035BC00FDEC42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE1777B177035BC00FDEC42 /* Cocoa.framework in Frameworks */,
+				ACE1777D177035BC00FDEC42 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACE1776E177035BC00FDEC42 = {
+			isa = PBXGroup;
+			children = (
+				ACE17781177035BC00FDEC42 /* FlashCardGenerator */,
+				ACE17779177035BC00FDEC42 /* Frameworks */,
+				ACE17778177035BC00FDEC42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACE17778177035BC00FDEC42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACE17777177035BC00FDEC42 /* FlashCardGenerator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACE17779177035BC00FDEC42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACE1777A177035BC00FDEC42 /* Cocoa.framework */,
+				ACE1777C177035BC00FDEC42 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACE17781177035BC00FDEC42 /* FlashCardGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				ACE17791177035BC00FDEC42 /* AppDelegate.rb */,
+				ACE1778A177035BC00FDEC42 /* Resources */,
+				ACE1778E177035BC00FDEC42 /* Other Sources */,
+				ACE17782177035BC00FDEC42 /* Supporting Files */,
+			);
+			path = FlashCardGenerator;
+			sourceTree = "<group>";
+		};
+		ACE17782177035BC00FDEC42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACE17783177035BC00FDEC42 /* FlashCardGenerator-Info.plist */,
+				ACE17784177035BC00FDEC42 /* InfoPlist.strings */,
+				ACE17787177035BC00FDEC42 /* main.m */,
+				ACE17789177035BC00FDEC42 /* FlashCardGenerator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ACE1778A177035BC00FDEC42 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ACE1778B177035BC00FDEC42 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		ACE1778E177035BC00FDEC42 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				ACE1778F177035BC00FDEC42 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		ACE1777E177035BC00FDEC42 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = ACE17798177035BC00FDEC42 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+				ACE17780177035BC00FDEC42 /* PBXTargetDependency */,
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		ACE17776177035BC00FDEC42 /* FlashCardGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACE17795177035BC00FDEC42 /* Build configuration list for PBXNativeTarget "FlashCardGenerator" */;
+			buildPhases = (
+				ACE17773177035BC00FDEC42 /* Sources */,
+				ACE17774177035BC00FDEC42 /* Frameworks */,
+				ACE17775177035BC00FDEC42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlashCardGenerator;
+			productName = FlashCardGenerator;
+			productReference = ACE17777177035BC00FDEC42 /* FlashCardGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACE1776F177035BC00FDEC42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Ilya Pozdneev";
+			};
+			buildConfigurationList = ACE17772177035BC00FDEC42 /* Build configuration list for PBXProject "FlashCardGenerator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ACE1776E177035BC00FDEC42;
+			productRefGroup = ACE17778177035BC00FDEC42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACE17776177035BC00FDEC42 /* FlashCardGenerator */,
+				ACE1777E177035BC00FDEC42 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACE17775177035BC00FDEC42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE17786177035BC00FDEC42 /* InfoPlist.strings in Resources */,
+				ACE1778D177035BC00FDEC42 /* MainMenu.xib in Resources */,
+				ACE17790177035BC00FDEC42 /* rb_main.rb in Resources */,
+				ACE17792177035BC00FDEC42 /* AppDelegate.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACE17773177035BC00FDEC42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE17788177035BC00FDEC42 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACE17780177035BC00FDEC42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACE17776177035BC00FDEC42 /* FlashCardGenerator */;
+			targetProxy = ACE1777F177035BC00FDEC42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACE17784177035BC00FDEC42 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACE17785177035BC00FDEC42 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ACE1778B177035BC00FDEC42 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACE1778C177035BC00FDEC42 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACE17793177035BC00FDEC42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		ACE17794177035BC00FDEC42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		ACE17796177035BC00FDEC42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+					"\"/Library/Frameworks/\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlashCardGenerator/FlashCardGenerator-Prefix.pch";
+				INFOPLIST_FILE = "FlashCardGenerator/FlashCardGenerator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ACE17797177035BC00FDEC42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+					"\"/Library/Frameworks/\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlashCardGenerator/FlashCardGenerator-Prefix.pch";
+				INFOPLIST_FILE = "FlashCardGenerator/FlashCardGenerator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ACE17799177035BC00FDEC42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		ACE1779A177035BC00FDEC42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACE17772177035BC00FDEC42 /* Build configuration list for PBXProject "FlashCardGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACE17793177035BC00FDEC42 /* Debug */,
+				ACE17794177035BC00FDEC42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACE17795177035BC00FDEC42 /* Build configuration list for PBXNativeTarget "FlashCardGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACE17796177035BC00FDEC42 /* Debug */,
+				ACE17797177035BC00FDEC42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ACE17798177035BC00FDEC42 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACE17799177035BC00FDEC42 /* Debug */,
+				ACE1779A177035BC00FDEC42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACE1776F177035BC00FDEC42 /* Project object */;
+}
