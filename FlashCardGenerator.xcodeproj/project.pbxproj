@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC6AE43F177D7B850034C4A6 /* NotePad1.icns in Resources */ = {isa = PBXBuildFile; fileRef = AC6AE43E177D7B850034C4A6 /* NotePad1.icns */; };
 		ACE1777B177035BC00FDEC42 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE1777A177035BC00FDEC42 /* Cocoa.framework */; };
 		ACE1777D177035BC00FDEC42 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE1777C177035BC00FDEC42 /* MacRuby.framework */; };
 		ACE17786177035BC00FDEC42 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACE17784177035BC00FDEC42 /* InfoPlist.strings */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC6AE43E177D7B850034C4A6 /* NotePad1.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = NotePad1.icns; sourceTree = "<group>"; };
 		ACE17777177035BC00FDEC42 /* FlashCardGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashCardGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACE1777A177035BC00FDEC42 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		ACE1777C177035BC00FDEC42 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
@@ -55,6 +57,7 @@
 		ACE1776E177035BC00FDEC42 = {
 			isa = PBXGroup;
 			children = (
+				AC6AE43E177D7B850034C4A6 /* NotePad1.icns */,
 				ACE17781177035BC00FDEC42 /* FlashCardGenerator */,
 				ACE17779177035BC00FDEC42 /* Frameworks */,
 				ACE17778177035BC00FDEC42 /* Products */,
@@ -189,6 +192,7 @@
 				ACE1778D177035BC00FDEC42 /* MainMenu.xib in Resources */,
 				ACE17790177035BC00FDEC42 /* rb_main.rb in Resources */,
 				ACE17792177035BC00FDEC42 /* AppDelegate.rb in Resources */,
+				AC6AE43F177D7B850034C4A6 /* NotePad1.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +361,7 @@
 				ACE17797177035BC00FDEC42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ACE17798177035BC00FDEC42 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
 			isa = XCConfigurationList;
@@ -365,6 +370,7 @@
 				ACE1779A177035BC00FDEC42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
